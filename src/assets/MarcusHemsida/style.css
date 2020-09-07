@@ -1,0 +1,29 @@
+body {
+background-image:url("Background1.jpg");
+Background-size:cover;
+Background-position:center;
+Background-repeat: no-repeat;
+Background-attachment: fixed; 
+}
+h1 {
+color: black;
+font-family: verdana;
+font-size: 300%;
+text-align:center;
+}
+p {
+color: green;
+font-family: courier;
+font-size: 160%;
+text-align:center;
+}
+.link {
+text-align: center;
+border:5px solid green;
+width:150px;
+margin-left:43.4%
+}
+.background {
+padding:30px 30px;
+background-color:lightgreen;   
+}

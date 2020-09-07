@@ -1,0 +1,92 @@
+
+body, html {
+	height: 100vh;
+	margin: 0; 
+	font-family: helvetica; 
+}
+
+.bakgrundsbild1, .bakgrundsbild2, .bakgrundsbild3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bakgrundsbild1 {
+	background-image: url("background.jpg");
+	min-height: 500px;
+	opacity: 0.80;
+}
+
+.bakgrundsbild2 {
+background-image: url("vinter.jpg");
+min-height: 400px;
+opacity: 0.80;
+}
+
+.bakgrundsbild3 {
+background-image: url("bakgrund.jpg");
+min-height: 400px;
+opacity: 0.70;
+
+}
+
+.headerbox {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px 0;
+	background-color: rgba(255,255,255,1);
+}
+
+.infobox {
+position: absolute;
+left: 0;
+top: 30%;
+width: 100%;
+text-align: center;
+font-size: 60px;
+color: rgba(0,0,0,1.00);
+}
+
+.textbox1 {
+padding: 30px 200px;
+text-align: center;
+background-color: #FFD6C5;
+color: rgba(255,255,255,0.90);
+border-top: 1px solid rgba(0,0,0,0.20);
+border-bottom: 1px solid rgba(0,0,0,0.20);
+}
+
+.textbox2 {
+text-align: center;
+color: rgba(255,255,255,0.90);
+padding: 30px 30px;
+text-align: justify;
+background-color: #FFD6C5;
+}
+
+.textbox3 {
+text-align: center;
+color: rgba(255,255,255,0.90);
+padding: 30px 30px;
+position: center;
+background-color: #FFD6C5;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 60px; 
+	font-family: helvetica;  
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	text-align: center;
+}
+

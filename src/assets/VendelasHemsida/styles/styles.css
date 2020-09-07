@@ -1,0 +1,19 @@
+.parallax {
+    /* The image used */
+    background-image: url("boko.jpg");
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#whitediv {
+    height:80px;
+    background-color:white;
+    font-size:36px
+}
+  

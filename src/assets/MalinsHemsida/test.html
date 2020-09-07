@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-image:url('test.jpg');
+background-size: cover;
+
+}
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: georgia;
+   font-size: 100px;
+}
+
+p {
+  font-family: pacifico;
+  font-size: 40px;
+}
+
+div {
+  background-image: url('blommornfokus.jpg');
+  size: cover;
+  border: 15px solid blue;
+  padding: 100px;
+  margin: 20px;
+  font-size: 50px;
+  
+}
+button1
+{
+width: 100px;
+  border: 15px solid lightblue;
+  padding: 10px;
+  margin: 200px;
+  font-family: georgia;
+   font-size: 20px;
+}
+
+button
+{
+width: 100px;
+  border: 15px solid lightblue;
+  padding: 10px;
+  margin: 200px;
+  font-family: georgia;
+   font-size: 20px;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+
+</style>
+</head>
+
+<title>Malins sida</title>
+
+<body>
+
+<h1>Malins hemsida</h1>
+<p class="sansserif"> Det här är en liten hemsida om mig klicka på länkarna och knapparna för att få reda på mera!</p>
+
+<p id="demo">Här är jag</p>
+
+<button1 onclick="myFunction()">
+Nu blir jag liten!
+
+</button1>
+
+
+<button onclick="myFunction1()">
+Blå!
+
+</button>
+
+<button onclick="myFunction2()">
+Röd!
+
+</button>
+
+<p><b><a href="https://sv.wikipedia.org/wiki/Sturefors" target="_blank">Här är jag ifrån</a></b></p>
+<p><b><a href="https://www.linkedin.com/in/malin-lilliecreutz-161951114/" target="_blank">Jobberfarenhet</a></b></p>
+<div>
+
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "10px"; 
+  x.style.color = "blue"; 
+}
+</script>
+
+<script>
+function myFunction1() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "100px"; 
+  x.style.color = "blue"; 
+
+}
+</script>
+
+<script>
+function myFunction2() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "100px"; 
+  x.style.color = "red"; 
+
+}
+</script>
+
+</body>
+
+</html>

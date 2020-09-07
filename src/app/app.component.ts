@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'allTraineeStars';
+  webpages = [{ title: 'Simon', url: 'https://simonexsitec.github.io/webtest/' }, {title: 'test', url:"https://simonexsitec.github.io/webtest/"}];
 }

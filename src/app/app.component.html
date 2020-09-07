@@ -1,1 +1,5 @@
-<iframe src="https://simonexsitec.github.io/webtest/"></iframe>
+<mat-tab-group>
+
+  <mat-tab *ngFor='let webpage of webpages' label={{webpage.title}}> <iframe src={{webpage.url}}></iframe> </mat-tab>
+
+</mat-tab-group>

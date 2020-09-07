@@ -9,7 +9,13 @@ import { Component, ViewEncapsulation } from '@angular/core';
 export class AppComponent {
   title = 'allTraineeStars';
   webpages = [
-    { title: 'Simon', url: 'https://simonexsitec.github.io/webtest/' },
-    { title: 'test', url: 'https://simonexsitec.github.io/webtest/' },
+    {
+      title: 'Simon',
+      url: 'https://simonexsitec.github.io/webtest/',
+    },
+    {
+      title: 'Erik sida',
+      url: 'assets/test.html',
+    },
   ];
 }

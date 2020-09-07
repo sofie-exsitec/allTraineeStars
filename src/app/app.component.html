@@ -1,5 +1,18 @@
-<mat-tab-group>
-  <mat-tab *ngFor="let webpage of webpages" label="{{ webpage.title }}">
-    <iframe [src]="webpage.url | safe: 'resourceUrl'"></iframe>
-  </mat-tab>
-</mat-tab-group>
+<div class='wrapper'>
+    <div class='rubrik-wrapper'>
+      <h1>
+        Alla traineestjärnor 2020
+      </h1>
+    </div>
+    <div class='tabell-wrapper'>
+      <mat-tab-group id='mat-tabTabell'>
+        <mat-tab *ngFor="let webpage of webpages" label="{{ webpage.title }}">
+          <iframe [src]="webpage.url | safe: 'resourceUrl'"></iframe>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+
+</div>
+
+
+

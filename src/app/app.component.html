@@ -1,5 +1,5 @@
 <mat-tab-group>
-  <mat-tab *ngFor="let webpage of webpages" [color]="black" label="Test">
-    <!-- <iframe src="{{ webpage.url }}"></iframe> -->
+  <mat-tab *ngFor="let webpage of webpages" label="{{ webpage.title }}">
+    <iframe [src]="webpage.url | safe: 'resourceUrl'"></iframe>
   </mat-tab>
 </mat-tab-group>
